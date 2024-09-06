@@ -8,7 +8,7 @@ with open('model_forest.pkl', 'rb') as model_file:
     loaded_model = pickle.load(model_file)
 
 # Menambahkan gambar header untuk branding
-header_image = Image.open('Heart Disease Prediction.png')
+header_image = Image.open('fc25eb6c76c940f3acb353da926134c7.jpg')
 st.image(header_image, use_column_width=True)
 
 # Page title and description

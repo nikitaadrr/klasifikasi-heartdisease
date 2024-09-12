@@ -14,8 +14,8 @@ st.image(header_image, use_column_width=True)
 # Page title and description
 st.title('Heart Disease Prediction')
 st.markdown("""
-## Welcome to the **Heart Disease Prediction**
-This tool utilizes a **Random Forest Classification** machine learning model to assess your risk of developing heart disease based on various health indicators. Please enter your information carefully, and the model will provide a prediction.
+## Welcome to the **Heart Disease Prediction Application**
+Take a proactive step towards better heart health. This app uses advanced machine learning algorithms to predict the likelihood of heart disease based on key health indicators. By simply inputting your personal health data, such as age, cholesterol levels, and blood pressure, you can receive an instant assessment. Whether you're a healthcare professional or an individual concerned about heart health, this tool provides a quick and informative way to understand potential risks. Start your journey towards a healthier heart today!
 """)
 
 # User input for the health indicators

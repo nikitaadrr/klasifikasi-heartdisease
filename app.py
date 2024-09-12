@@ -20,7 +20,7 @@ Take a proactive step towards better heart health. This app uses advanced machin
 
 # User input for the health indicators
 def user_input_features():
-    age = st.number_input('Hi there👋 how old are You?', min_value=1, max_value=120, value=40)
+    age = st.number_input('How old are You?', min_value=1, max_value=120, value=40)
     
     col1, col2 = st.columns(2)
     
